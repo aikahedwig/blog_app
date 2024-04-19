@@ -5,7 +5,7 @@ set :application, "blog_app"
 set :repo_url, "https://github.com/aikahedwig/blog_app.git"
 set :bundle_without, %w{test}.join(':')
 append :linked_files, 'config/secrets.yml'
-
+set :rbenv_version, '3.0.1'
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
